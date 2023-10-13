@@ -12,10 +12,10 @@ body {
   height: 100vh;
 }
 .heading {
-  color: brown;
+  color: white;
   font-weight: 600;
   font-style: italic;
-  background-color: yellow;
+  background-color: brown;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
 }
@@ -27,6 +27,9 @@ body {
   margin: auto;
 }
 .paragraph {
+  color: cornflowerblue;
+  font-weight: bold;
+  font-style: italic;
   font-size: 1.5rem;
   text-align: center;
   margin: 1rem 0;
@@ -53,10 +56,21 @@ body {
 }
 .list li a:hover {
   cursor: pointer;
-  background-color: gainsboro;
+  background-color: burlywood;
 }
 .list li a:focus {
   cursor: pointer;
-  background-color: brown;
+  background-color: black;
   color: white;
+}
+.amazing-foods {
+  padding: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: crimson;
+}
+.paragraph a:hover,
+.paragraph a:focus {
+  cursor: pointer;
+  color: hotpink;
 }
