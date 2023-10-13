@@ -35,14 +35,28 @@ body {
   list-style-type: none;
 }
 .list li {
-  padding: 1rem;
   border-top: 2px solid black;
 }
+.last-child {
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
 .list li a {
+  display: block;
+  padding: 1rem;
   text-decoration: none;
   color: brown;
   font-weight: 500;
   font-style: italic;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+.list li a:hover {
+  cursor: pointer;
+  background-color: gainsboro;
+}
+.list li a:focus {
+  cursor: pointer;
+  background-color: brown;
+  color: white;
 }
